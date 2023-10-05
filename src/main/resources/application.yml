@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    database: node
+    # uri: mongodb+srv://iamdon123:iamdon123@cluster0.siwjcp8.mongodb.net/
+    uri: mongodb://localhost:27017/node
+    host : localhosts
+    port: 27017
+    field-naming-strategy: org.springframework.data.mapping.model.SnakeCaseFieldNamingStrategy
+
